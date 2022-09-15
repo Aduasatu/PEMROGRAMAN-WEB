@@ -1,54 +1,78 @@
-/* h1{
-    color: red; 
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aquamarine;
-    font-size: 30px;
-    width: max-content;
-    height: min-content;
-}
-li{
-    color: green;
-}
-
-.HTML{
-    color: red;
-}
-.CSS{
-    color: blue;
-} */
+* {
+    margin: 0px;
+    padding: 0px;
+ }
 .Header{
-    background-color: #26d0c9;
-    height: 90px;
-    color: #ffffff;
+    background-color: #232536;
+    height: 80px;
+    color: #fff;
+    width: auto;
 }
-li{
+.Header-Home {
     list-style: none;
-    float: left;
+    float: right;
     padding: 33px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.Header-Kucing, .Header-Belanja{
+    list-style: none;
+    float: right;
+    padding: 33px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
 }
 .Header-Logo{
-    font-size: 36px;
+    padding: 15px 30px;
     float: left;
-    padding: 20px;
+}
+.Header-text{
+    font-size: 20px;
+    float: left;
+    padding: 25px 0px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
 }
 .Main{
-    background-color: #bdf7f1;
-    height: 600px;
+    background-color: #fff;
+    height: 300px;
+    padding: 100px 80px;
+}
+.Main-Content span{
+    color: #ff4a4a;
+}
+.Main-Content h1{
+    font-size: 140px;
+}
+.Main-Content h2{
+    font-size: 60px;
 }
 .Footer{
-    background-color: #2f5167;
-    color: #ffffff;
-    height: 120px;
+    background-color: #FFE6D2;
+    color: #000000;
+    height: 100px;
     padding: 40px;
 }
 .Footer-Logo{
-    font-size: 32px;
+    font-size: 30px;
     float: left;
 }
-.Footer-List{
-    float: right;
+.Footer-Slogan h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
 }
-.Footer-List li{
-    padding-bottom: 20px;
+.Footer-Slogan ul{
+    float: right;
+    list-style: none;
+    font-family: 'Poppins';
 }
