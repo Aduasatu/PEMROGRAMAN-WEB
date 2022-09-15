@@ -1,0 +1,54 @@
+/* h1{
+    color: red; 
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    font-size: 30px;
+    width: max-content;
+    height: min-content;
+}
+li{
+    color: green;
+}
+
+.HTML{
+    color: red;
+}
+.CSS{
+    color: blue;
+} */
+.Header{
+    background-color: #26d0c9;
+    height: 90px;
+    color: #ffffff;
+}
+li{
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+}
+.Header-Logo{
+    font-size: 36px;
+    float: left;
+    padding: 20px;
+}
+.Main{
+    background-color: #bdf7f1;
+    height: 600px;
+}
+.Footer{
+    background-color: #2f5167;
+    color: #ffffff;
+    height: 120px;
+    padding: 40px;
+}
+.Footer-Logo{
+    font-size: 32px;
+    float: left;
+}
+.Footer-List{
+    float: right;
+}
+.Footer-List li{
+    padding-bottom: 20px;
+}
