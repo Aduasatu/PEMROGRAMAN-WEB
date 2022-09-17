@@ -61,18 +61,17 @@
     height: 100px;
     padding: 40px;
 }
-.Footer-Logo{
-    font-size: 30px;
-    float: left;
-}
 .Footer-Slogan h2{
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 30px;
     line-height: 28px;
 }
-.Footer-Slogan ul{
-    float: right;
+.Footer-List {
+    float: right;;
+}
+.Footer-List ul{
+    font-size: 16px;
     list-style: none;
     font-family: 'Poppins';
 }
