@@ -43,7 +43,7 @@
 }
 .Main{
     background-color: #fff;
-    height: 310px;
+    /* height: 700px; */
     padding: 100px 80px;
 }
 .Main-Content span{
@@ -55,6 +55,26 @@
 .Main-Content h2{
     font-size: 60px;
 }
+.Content{
+    margin-top: 100px;
+    height: 500px;
+}
+.section-title{
+    border-bottom: 2px solid #dee7ec;
+    margin-bottom: 50px;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.Content-item{
+    float: left;
+    margin-right: 40px;
+}
+
+.Content-item p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
 .Footer{
     background-color: #FFE6D2;
     color: #000000;
